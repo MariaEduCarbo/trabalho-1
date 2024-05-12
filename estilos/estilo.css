@@ -1,0 +1,51 @@
+@charset "UTF-8";
+
+* {
+  margin: 0px;
+  padding: 0px;
+}
+
+body {
+  background-color: rgb(2, 8, 88);
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.cabecalho {
+  background-color: white;
+  padding: 25px;
+}
+
+.cabecalho h1 {
+  font-weight: bold;
+}
+
+hr {
+  margin: 25px;
+}
+
+.apresentacao {
+  padding: 25px;
+  background-color: white;
+  width: 85%;
+  margin: auto;
+}
+
+.corredores{
+  border: 1px solid rgba(0, 0, 0, 0.342);
+  padding: 20px;
+  display: flex;
+}
+
+p {
+  line-height: 1.5em;
+}
+
+.fonte {
+  padding: 25px;
+  background-color: white;
+}
+
+.fonte a {
+  text-decoration: none;
+  color: grey;
+}

@@ -1,0 +1,85 @@
+@charset "UTF-8";
+
+* {
+  margin: 0px;
+  padding: 0px;
+}
+
+body {
+  background-color: rgba(3, 21, 182, 0.781);
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.cabecalho {
+  display: flex;
+  background-color: white;
+  justify-content: space-between;
+  padding: 25px;
+}
+
+.link {
+  display: flex;
+  align-items: center;
+  border-radius: 15px;
+  background-color: rgb(26, 25, 25);
+}
+
+.link a {
+  color: white;
+  text-decoration: none;
+}
+
+hr {
+  margin: 25px;
+}
+
+.biografia {
+  padding: 25px;
+  background-color: white;
+  width: 85svw;
+  margin: auto;
+}
+
+p {
+  line-height: 1.5em;
+  text-indent: 2%;
+}
+
+.biografia h1 {
+  margin: 10px;
+}
+
+.biografia h2 {
+  margin: 10px;
+  margin-bottom: 30px;
+}
+
+.biografia img {
+  width: 50%;
+  height: 50%;
+}
+
+.container {
+  display: flex;
+}
+
+.outros-corredores {
+  padding: 25px;
+  background-color: white;
+}
+
+
+ul {
+  columns: 3;
+  width: fit-content;
+  margin-left: 100px;
+  margin-bottom: 20px;
+  margin-top: 20px;
+  gap: 30px;
+  list-style-type: none;
+}
+
+ul a {
+  text-decoration: none;
+  color: grey;
+}
